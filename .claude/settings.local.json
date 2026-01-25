@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__angular-cli__list_projects",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_serena_serena__list_dir",
+      "mcp__plugin_serena_serena__activate_project",
+      "mcp__plugin_context7_context7__query-docs",
+      "mcp__plugin_serena_serena__read_file",
+      "WebFetch(domain:motion.dev)",
+      "mcp__angular-cli__get_best_practices",
+      "mcp__plugin_serena_serena__create_text_file",
+      "Bash(npx tsc:*)",
+      "Bash(npx ng build:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(pnpm ng build:*)",
+      "Bash(pnpm build:*)",
+      "Bash(xargs:*)",
+      "Bash(pnpm exec tsc:*)",
+      "Bash(ls:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "angular-cli"
+  ]
+}
